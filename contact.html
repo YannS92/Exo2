@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>John DOE</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <h1>John DOE</h1>
+    <h2>Contact</h2>
+    <table>
+      <tr>
+        <a href="./index.html"> Accueil </a>
+      </tr>
+      <tr>
+        <a href="./horaires.html"> Horaires </a>
+      </tr>
+      <tr>
+        <a href="./contact.html"> Contact </a>
+      </tr>
+    </table>
+    
+    <div class="container">
+      <h3>Qui êtes vous ?</h3>
+      <label>Nom : </label><input type="text" value="MARTIN" /><br />
+      <label>Prénom : </label><input type="text" value="John" /><br />
+      <label>Date de naissance : </label><input type="date" /><br />
+      <label>Sexe : </label>
+      <input type="radio" name="sexe" /> Homme
+      <input type="radio" name="sexe" /> Femme
+    </div>
+
+    <div class="container">
+      <h3>Sujet de votre question</h3>
+      <label>Est-ce urgent ? </label><input type="checkbox" /><br />
+      <label>Type de problème :</label>
+      <select>
+        <optgroup label="Compte">
+          <option>Je n'arrive pas à accéder à mon compte</option>
+          <option>Je crois que j'ai été piraté</option>
+          <option>Je n'arrive pas à changer mon mot de passe</option>
+          <option>J'ai perdu mes identifiants</option>
+        </optgroup>
+        <optgroup label="Achat">
+          <option>Je n'arrive pas à confirmer mon achat</option>
+          <option>J'aimerais avoir des nouvelles de ma livraison</option>
+        </optgroup>
+      </select>
+    </div>
+
+    <div class="container">
+      <h3>Commentaire</h3>
+      <label>Notes :</label><br />
+      <textarea rows="10" cols="80"></textarea><br />
+    </div>
+
+    <button class="btn">Envoyer ma question</button>
+  </body>
+</html>
